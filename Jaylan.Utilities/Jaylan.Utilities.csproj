@@ -53,6 +53,7 @@
     <Compile Include="Encrypt\EncryptHelper.cs" />
     <Compile Include="GetProcessor.cs" />
     <Compile Include="GuidHelper.cs" />
+    <Compile Include="GuidToNumStrHelper.cs" />
     <Compile Include="Http\CacheHelper.cs" />
     <Compile Include="Http\CookieHelper.cs" />
     <Compile Include="Http\HttpCookieHelper.cs" />
