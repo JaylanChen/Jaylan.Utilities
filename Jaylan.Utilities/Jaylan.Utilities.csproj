@@ -49,6 +49,8 @@
     <Compile Include="CodeTimer.cs" />
     <Compile Include="Config\ConfigHelper.cs" />
     <Compile Include="Config\ConfigUpdateHelper.cs" />
+    <Compile Include="Encrypt\AuthenticationHelper.cs" />
+    <Compile Include="Encrypt\EncryptHelper.cs" />
     <Compile Include="GetProcessor.cs" />
     <Compile Include="GuidHelper.cs" />
     <Compile Include="Http\CacheHelper.cs" />
@@ -62,6 +64,7 @@
     <Compile Include="MD5Helper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SQL\SqlHelper.cs" />
+    <Compile Include="TimeStampHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
