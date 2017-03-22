@@ -45,6 +45,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GuidHelper.cs" />
+    <Compile Include="Http\CacheHelper.cs" />
+    <Compile Include="Http\CookieHelper.cs" />
     <Compile Include="Http\HttpCookieHelper.cs" />
     <Compile Include="Http\HttpHelper.cs" />
     <Compile Include="Http\HttpRequsetHelper.cs" />
