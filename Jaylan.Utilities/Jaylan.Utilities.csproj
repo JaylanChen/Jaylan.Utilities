@@ -73,5 +73,9 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="SQLScript\Jaylan.sql" />
+    <Content Include="SQLScript\SQLServer海量数据库的查询优化及分页算法.sql" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
