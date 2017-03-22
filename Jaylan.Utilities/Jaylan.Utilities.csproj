@@ -34,7 +34,9 @@
       <HintPath>..\packages\Newtonsoft.Json.10.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -44,6 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CodeTimer.cs" />
+    <Compile Include="Config\ConfigHelper.cs" />
+    <Compile Include="Config\ConfigUpdateHelper.cs" />
+    <Compile Include="GetProcessor.cs" />
     <Compile Include="GuidHelper.cs" />
     <Compile Include="Http\CacheHelper.cs" />
     <Compile Include="Http\CookieHelper.cs" />
