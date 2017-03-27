@@ -297,6 +297,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Scripts\uploadifive-v1.2.2-standard.zip" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
