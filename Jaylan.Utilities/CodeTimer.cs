@@ -48,7 +48,7 @@ namespace Jaylan.Utilities
         /// <param name="action">需要执行的方法体</param>
         public static void Time(string name, int iteration, Action action)
         {
-            if (String.IsNullOrEmpty(name)) return;
+            if (string.IsNullOrEmpty(name)) return;
 
             // 1. Print name
             //    保留当前控制台前景色，并使用黄色输出名称参数。
