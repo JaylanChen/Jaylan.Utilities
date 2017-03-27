@@ -59,6 +59,10 @@ namespace Jaylan.WebApi
             });
             #endregion
 
+
+            //Remove X-AspNetMvc-Version
+            MvcHandler.DisableMvcResponseHeader = true;
+
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
