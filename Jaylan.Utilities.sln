@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26228.9
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jaylan.Utilities", "Jaylan.Utilities\Jaylan.Utilities.csproj", "{635E7002-2B24-4C89-BD15-11EE3B49CDAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jaylan.WebApi", "Jaylan.WebApi\Jaylan.WebApi.csproj", "{D2DE384A-8A35-48C2-97A1-9B9D974ABFFF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jaylan.WebApi", "Jaylan.WebApi\Jaylan.WebApi.csproj", "{F55F6ABF-1AA2-43E4-B41D-55BC4B6D0E55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{635E7002-2B24-4C89-BD15-11EE3B49CDAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{635E7002-2B24-4C89-BD15-11EE3B49CDAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{635E7002-2B24-4C89-BD15-11EE3B49CDAF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D2DE384A-8A35-48C2-97A1-9B9D974ABFFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D2DE384A-8A35-48C2-97A1-9B9D974ABFFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D2DE384A-8A35-48C2-97A1-9B9D974ABFFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D2DE384A-8A35-48C2-97A1-9B9D974ABFFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F55F6ABF-1AA2-43E4-B41D-55BC4B6D0E55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F55F6ABF-1AA2-43E4-B41D-55BC4B6D0E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F55F6ABF-1AA2-43E4-B41D-55BC4B6D0E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F55F6ABF-1AA2-43E4-B41D-55BC4B6D0E55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

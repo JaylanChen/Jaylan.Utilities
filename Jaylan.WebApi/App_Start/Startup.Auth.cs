@@ -18,7 +18,7 @@ namespace Jaylan.WebApi
 
         public static string PublicClientId { get; private set; }
 
-        // For more information on configuring authentication, please visit https://go.microsoft.com/fwlink/?LinkId=301864
+        // 有关配置身份验证的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkId=301864
         public void ConfigureAuth(IAppBuilder app)
         {
             // 将数据库上下文和用户管理器配置为对每个请求使用单个实例
