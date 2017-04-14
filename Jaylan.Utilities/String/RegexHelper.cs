@@ -8,15 +8,6 @@ namespace Jaylan.Utilities.String
     public class RegexHelper
     {
         #region 验证输入字符串是否与模式字符串匹配
-        /// <summary>
-        /// 验证输入字符串是否与模式字符串匹配，匹配返回true
-        /// </summary>
-        /// <param name="input">输入字符串</param>
-        /// <param name="pattern">模式字符串</param>        
-        public static bool IsMatch(string input, string pattern)
-        {
-            return IsMatch(input, pattern, RegexOptions.IgnoreCase);
-        }
 
         /// <summary>
         /// 验证输入字符串是否与模式字符串匹配，匹配返回true
@@ -28,6 +19,29 @@ namespace Jaylan.Utilities.String
         {
             return Regex.IsMatch(input, pattern, options);
         }
+
+        /// <summary>
+        /// 验证输入字符串是否与模式字符串匹配，匹配返回true
+        /// 不区分大小写
+        /// </summary>
+        /// <param name="input">输入字符串</param>
+        /// <param name="pattern">模式字符串</param>        
+        public static bool IsMatchIgnoreCase(string input, string pattern)
+        {
+            return IsMatch(input, pattern, RegexOptions.IgnoreCase);
+        }
+
+        /// <summary>
+        /// 验证输入字符串是否与模式字符串匹配，匹配返回true
+        /// 不区分大小写
+        /// </summary>
+        /// <param name="input">输入字符串</param>
+        /// <param name="pattern">模式字符串</param>        
+        public static bool IsMatch(string input, string pattern)
+        {
+            return IsMatch(input, pattern, RegexOptions.None);
+        }
+
         #endregion
     }
 }
