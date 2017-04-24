@@ -51,6 +51,7 @@
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Management" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
@@ -82,6 +83,7 @@
     <Compile Include="LinqExtension.cs" />
     <Compile Include="Mail\MailHelper.cs" />
     <Compile Include="MD5Helper.cs" />
+    <Compile Include="NetPOSPrinter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Random\RandomHelper.cs" />
     <Compile Include="Sorter.cs" />
