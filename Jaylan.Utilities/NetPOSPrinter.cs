@@ -169,17 +169,23 @@ namespace Jaylan.Utilities
         }
 
 
-
-        public void SetFontSize(byte size = 20)
+        /// <summary>
+        /// 字体加粗
+        /// </summary>
+        /// <param name="bold"></param>
+        public void SetFontBold(bool bold = true)
         {
             if (!_isConnect)
             {
                 Connect();
             }
-            var fontSize = _printEncoding.GetBytes("" + (char)(27) + (char)(33) + (char)(size));
+            var fontSize = _printEncoding.GetBytes("" + (char)(27) + (char)(69) + (char)(bold ? 1 : 0));
             _printSocket.Send(fontSize);
         }
 
+        /// <summary>
+        /// 初始化打印机
+        /// </summary>
         public void InitPrint()
         {
             if (!_isConnect)
@@ -200,8 +206,8 @@ namespace Jaylan.Utilities
             {
                 Connect();
             }
-            //var cutBytes = new byte[] { 0x1b, 0x69 };
-            var cutBytes = new byte[] { 0x1d, 0x56, 0x42, 0x00 };
+            var cutBytes = new byte[] { 0x1b, 0x69 };
+            //var cutBytes = new byte[] { 0x1d, 0x56, 0x42, 0x00 };
             _printSocket.Send(cutBytes);
         }
 
