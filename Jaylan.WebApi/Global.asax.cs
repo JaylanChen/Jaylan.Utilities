@@ -62,6 +62,9 @@ namespace Jaylan.WebApi
 
             //Remove X-AspNetMvc-Version
             MvcHandler.DisableMvcResponseHeader = true;
+            
+            //只返回Json格式的数据
+            GlobalConfiguration.Configuration.Formatters.XmlFormatter.SupportedMediaTypes.Clear();
 
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
