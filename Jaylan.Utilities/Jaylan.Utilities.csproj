@@ -88,8 +88,10 @@
     <Compile Include="Random\RandomHelper.cs" />
     <Compile Include="Sorter.cs" />
     <Compile Include="SQL\SqlHelper.cs" />
+    <Compile Include="String\ConvertHzToPz_Gb2312.cs" />
     <Compile Include="String\RegexHelper.cs" />
     <Compile Include="String\StringHelper.cs" />
+    <Compile Include="String\StrToPinyin.cs" />
     <Compile Include="TimeStampHelper.cs" />
   </ItemGroup>
   <ItemGroup>
