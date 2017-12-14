@@ -67,6 +67,7 @@
     <Compile Include="Config\ConfigUpdateHelper.cs" />
     <Compile Include="Encrypt\AuthenticationHelper.cs" />
     <Compile Include="Encrypt\EncryptHelper.cs" />
+    <Compile Include="Encrypt\RSAHelper.cs" />
     <Compile Include="Enum\EnumHelper.cs" />
     <Compile Include="Excel\CsvHelper.cs" />
     <Compile Include="Excel\ExcelHelper.cs" />
